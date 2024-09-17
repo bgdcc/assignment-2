@@ -123,7 +123,7 @@ class KingsPalindromeList {
             // Outputs all the elements of the palindrome list.
             for (int i = 0; i < petersList.length; i++) {
                 if (i == petersList.length - 1) {
-                    System.out.print(petersList[i]);
+                    System.out.println(petersList[i]);
                 } else {
                     System.out.print(petersList[i] + " ");
                 }
